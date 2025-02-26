@@ -62,8 +62,8 @@
             <li><a href="https://advancedwebsitedemo.learncoach.com/files/advancedmusic.sql">Site Template.</a></li>
         </ul>
     </div>
-    <footer>
-        <p class="centre">&copy; 2025 WRYYYYY</p>
-    </footer>
+   <?php
+        include-once('footer.php)
+        ?>
 </body>
 </html>
