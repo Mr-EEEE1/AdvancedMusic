@@ -60,7 +60,7 @@ include-once('header.php')
         </ul>
     </div>
    <?php
-        include-once('footer.php)
+        include-once('footer.php')
         ?>
 </body>
 </html>
