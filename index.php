@@ -7,12 +7,9 @@
     <title>Digital Media. Advanced Websites</title>
 </head>
 <body>
-    <header>
-        <figure>
-            <img src="images/lc-mint.png" width="100" alt="Learn Coach Logo.">
-        </figure>
-        <h1>Digital Media. Advanced Websites</h1>
-    </header>
+   <?php
+include-once('header.php')
+    ?>
     <nav>
         <label for="navCheck"><i class="fas fa-bars"></i></label>
         <input type="checkbox" id="navCheck">         
@@ -62,8 +59,8 @@
             <li><a href="https://advancedwebsitedemo.learncoach.com/files/advancedmusic.sql">Site Template.</a></li>
         </ul>
     </div>
-    <footer>
-        <p class="centre">&copy; 2025 WRYYYYY</p>
-    </footer>
+   <?php
+        include-once('footer.php')
+        ?>
 </body>
 </html>
